@@ -1,0 +1,34 @@
+C programming language was developed in 1972 by Dennis Ritchie at bell laboratories of AT&T (American Telephone & Telegraph), located in the U.S.A.
+
+Dennis Ritchie is known as the founder of the c language.
+
+It was developed to overcome the problems of previous languages such as B, BCPL, etc.
+
+Initially, C language was developed to be used in UNIX operating system. It inherits many features of previous languages such as B and BCPL.
+
+Language	    Year	Developed By
+--------------------------------------------------
+Algol	        1960	International Group
+BCPL	        1967	Martin Richard
+B	            1970	Ken Thompson
+Traditional C	1972	Dennis Ritchie
+K & R C	        1978	Kernighan & Dennis Ritchie
+ANSI C	        1989	ANSI Committee
+ANSI/ISO C	    1990	ISO Committee
+C99	            1999	Standardization Committee
+--------------------------------------------------
+
+Features of C Language
+C is the widely used language. It provides many features that are given below.
+
+Simple
+Machine Independent or Portable
+Mid-level programming language
+structured programming language
+Rich Library
+Memory Management
+Fast Speed
+Pointers
+Recursion
+Extensible
+
