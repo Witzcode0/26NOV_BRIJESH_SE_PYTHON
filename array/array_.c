@@ -24,3 +24,31 @@ int main() {
     printf("%d", total/len);
     return 0;
 }
+
+#include <stdio.h>
+
+int main() {
+   int matrix1[3][3] = {
+       {1,2,3},
+       {4,5,6},
+       {7,8,9}
+   };
+   
+  int matrix2[3][3] = {
+      {11,22,33},
+      {44,55,66},
+      {77,88,99}
+    };
+   
+   for(int row = 0; row < 3; row++ ){
+       for(int col = 0; col<3; col++){
+          printf("%d\t", matrix1[row][col] * matrix2[row][col]);
+        printf("*");
+       }
+       printf("\n");
+   }
+   
+
+
+    return 0;
+}

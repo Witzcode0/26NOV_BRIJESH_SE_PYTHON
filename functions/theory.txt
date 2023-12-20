@@ -1,0 +1,19 @@
+
+In C programming, a function is a self-contained block of code that performs a specific task or set of tasks.Functions are used to break down a program into smaller, manageable pieces, making the code more modular, readable, and easier to maintain. Each function has a name, a return type, a parameter list (optional), and a body of code.
+
+Syntax :
+
+return_type function_name(formal_parameters) {
+    // Function body (code)
+    // Statements to perform a specific task
+
+    // Optional: return statement to return a value of the specified return type
+}
+
+
+function call 
+function_name(actual_parameter)
+
+types of function :
+1] user-define function
+2] built-in function
