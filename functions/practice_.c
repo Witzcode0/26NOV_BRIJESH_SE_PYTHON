@@ -60,3 +60,21 @@ int main() {
     printf("%d", c);
     return 0;
 }
+
+
+
+#include <stdio.h>
+
+int main() {
+    
+    int a = 10;
+    int a = 20;
+    int A(){
+        
+        return a;
+    }
+    
+    printf("%d", A());
+
+    return 0;
+}
