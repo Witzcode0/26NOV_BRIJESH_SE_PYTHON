@@ -77,3 +77,32 @@ int main() {
 
     return 0; 
 }
+
+
+
+#include <stdio.h>
+
+int main()
+{
+  int win_num = 23;
+  int flag = 1;
+  int count = 0;
+  while(flag){
+    int guess_num;
+  printf("Enter a num: ");
+  scanf("%d", &guess_num);
+  count++;
+  
+  if(win_num == guess_num){
+      printf("Congrates!!!, You are win\n");
+      printf("Guess count : %d", count);
+      flag = 0;
+  }else{
+      if (guess_num<win_num){
+          printf("Too low\n");
+      }else{
+          printf("Too high\n");
+      }
+  }   
+  }
+}
