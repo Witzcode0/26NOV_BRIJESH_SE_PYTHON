@@ -3,7 +3,7 @@ using namespace std;
 
 // class
 class Person{
-    private: // access specifiers
+    public: // access specifiers
     // data member
     string name;
     int age;
@@ -23,6 +23,12 @@ class Person{
 int main(){
 
     // create object
+    // syntax of class : class_name obj_name;
+    // how to use public data from the class
+    // obj_name.data_member
+    // obj_name.member_function();
+
+
     Person p1;
     p1.name = "brijesh gondaliya";
     p1.age = 28;
