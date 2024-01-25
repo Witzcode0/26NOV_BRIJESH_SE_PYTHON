@@ -10,7 +10,7 @@ int main(){
             throw(age);
         }
     } catch (int a){
-        cout<<"You can not voting because of your age is"<<a<<"< 18";
+        cout<<"You can not voting because of your age is "<<a<<"< 18";
     }
 
 }
