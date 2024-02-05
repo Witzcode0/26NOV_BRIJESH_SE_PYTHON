@@ -25,6 +25,18 @@ mysql> alter table users modify password varchar(255) not null;
 Query OK, 0 rows affected (0.06 sec)
 Records: 0  Duplicates: 0  Warnings: 0
 
+alter table users add gender varchar(10) not null;
+Query OK, 0 rows affected (0.06 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> alter table users add is_active boolean default true;
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> alter table users drop is_active;
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
 mysql> describe users;
 +------------+--------------+------+-----+---------+----------------+
 | Field      | Type         | Null | Key | Default | Extra          |
@@ -35,6 +47,7 @@ mysql> describe users;
 | email      | varchar(255) | YES  | UNI | NULL    |                |
 | mobile     | varchar(50)  | YES  | UNI | NULL    |                |
 | password   | varchar(255) | NO   |     | NULL    |                |
+| gender     | varchar(10)  | NO   |     | NULL    |                |
 +------------+--------------+------+-----+---------+----------------+
 
 
