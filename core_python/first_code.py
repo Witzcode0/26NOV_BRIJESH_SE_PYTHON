@@ -7,4 +7,4 @@
 # print('b', end='')
 # print('c')
 
-print("python", "java", "php", "nodejs", sep='|')
+# print("python", "java", "php", "nodejs", sep='|')
