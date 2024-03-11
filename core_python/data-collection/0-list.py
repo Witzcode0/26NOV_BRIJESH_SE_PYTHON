@@ -102,3 +102,4 @@ nums = [1,1,2,3,1,1]
 # nums.reverse()
 
 # print(nums.index(1, 3))
+
