@@ -1,0 +1,11 @@
+In Python, OOP stands for Object-Oriented Programming. It's a programming paradigm that revolves around the concept of "objects" which can contain data in the form of fields (attributes or properties) and code in the form of procedures (methods or functions).
+
+Classes and Objects: A class is a blueprint for creating objects. Objects are instances of classes. Classes define attributes and methods that objects of the class possess.
+
+Encapsulation: Encapsulation refers to the bundling of data with the methods that operate on that data. It is used to restrict access to certain parts of an object and to prevent the accidental modification of data.
+
+Inheritance: Inheritance allows a class (subclass or derived class) to inherit attributes and methods from another class (superclass or base class). This promotes code reusability and establishes a hierarchical relationship between classes.
+
+Polymorphism: Polymorphism allows methods to do different things based on the object that they are acting upon. It enables flexibility and extensibility in code.
+
+Abstraction: Abstraction is the process of hiding the complex implementation details and showing only the essential features of the object. It helps in reducing programming complexity and effort.
